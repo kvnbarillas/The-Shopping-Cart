@@ -1,0 +1,46 @@
+.logo .content .shopping-cart {
+	width: 195px;
+	height: 250px;
+	margin-left: 103px;
+}
+
+.logo .content h1 {
+	color: #ff0F46;
+	margin-top: -10px;
+	margin-left: 57px;
+}
+
+.enter-item .content {
+	text-align: center
+}
+
+.main-list .content .list {
+	display: block;
+	width: 250px;
+	padding: 29px;
+	border: 1px black;
+	margin: 0;
+	border-style: solid;
+	margin-top: 49px;
+	margin-left: 329px;
+}
+
+.main-list .content h3 {
+	margin-left: 372px;
+}
+
+.other-list .content .cart {
+	display: block;
+	width: 250px;
+	padding: 29px;
+	border: 1px black;
+	margin: 0;
+	border-style: solid;
+	margin-top: -132px;
+	margin-left: 673px;
+}
+
+.trash .content button {
+	margin-top: 61px;
+	margin-left: 329px;
+}
