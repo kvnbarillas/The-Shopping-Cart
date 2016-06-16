@@ -17,6 +17,7 @@
 .main-list .content .list {
 	display: block;
 	width: 250px;
+	height: 200px;
 	padding: 29px;
 	border: 1px black;
 	margin: 0;
@@ -32,11 +33,12 @@
 .other-list .content .cart {
 	display: block;
 	width: 250px;
+	height:200px;
 	padding: 29px;
 	border: 1px black;
 	margin: 0;
 	border-style: solid;
-	margin-top: -132px;
+	margin-top: -259px;
 	margin-left: 673px;
 }
 
