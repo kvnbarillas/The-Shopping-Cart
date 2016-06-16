@@ -5,8 +5,7 @@ $(document).ready(function(){
 	})
 
 	$('.main-list > #button').click(function(event){
-		var test = $('<button>test</button.>').click(function(){
-			alert ('hi');
+		
 
 	})
-})
+});
