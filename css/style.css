@@ -11,7 +11,7 @@
 }
 
 .enter-item .content {
-	text-align: center
+	margin-left: 437px
 }
 
 .main-list .content .list {
@@ -26,8 +26,9 @@
 	margin-left: 329px;
 }
 
-.main-list .content h3 {
-	margin-left: 372px;
+.main-list .content h2 {
+	margin-left: 329px;
+	margin-bottom: -30px;
 }
 
 .other-list .content .cart {
@@ -38,11 +39,17 @@
 	border: 1px black;
 	margin: 0;
 	border-style: solid;
-	margin-top: -259px;
+	margin-top: 36px;
 	margin-left: 673px;
 }
 
+.other-list h2 {
+	margin-top: -305px;
+	margin-bottom: -19px;
+	margin-left: 675px;
+}
+
 .trash .content button {
-	margin-top: 61px;
-	margin-left: 329px;
+	margin-top: 41px;
+	margin-left: 898px;
 }

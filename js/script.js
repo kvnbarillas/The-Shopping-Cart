@@ -1,11 +1,15 @@
 $(document).ready(function(){
-	$('.list > li').on('click',function(event){
+	$(document).on('click', '.list > li',function(){
 		$(this).remove();
-		$('.cart').prepend($(this));
-	})
+		$('.cart').append($(this));
+	});
 
-	$('.main-list > #button').click(function(event){
-		
+	$('#add').click(function(){
+		$('.list').append('<li>' + $('#input-box').val() + '</li>');
+		$('#input-box').val("");
+	});
 
-	})
+	$('#clear').click(function(){
+		$('.cart li').remove();
+	});
 });
